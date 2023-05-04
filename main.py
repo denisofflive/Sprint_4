@@ -22,8 +22,6 @@ bootstrap.send_keys(Keys.ARROW_DOWN + Keys.ENTER)
 
 driver.find_element(*OrderPageLocators.NEXT).click()
 
-#
-
 driver.find_element(*AboutRentLocators.WHEN_TO_BRING).send_keys("09.05.2023")
 
 index = random.randint(0, 6)
